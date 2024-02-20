@@ -6,10 +6,17 @@
 
 .menu-link:link{
     text-decoration: none;
+    color: black;
 }
 
-.botao-link:link{
-    text-decoration: none;
+
+.botao-link{
+    background-color: #E74C3C;  
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    width: 126px;
+    height: 29px;
 }
 
 .menu{
@@ -18,7 +25,6 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: black;
     font-size: 16px;
 }
 
@@ -38,7 +44,7 @@
 }
 
 .apresentacao > img{
-    width: 1920px;
+    width: 1519px;
 }
 
 .apresentacao .faixa1{
@@ -46,7 +52,7 @@
     position: absolute;
     top: 180px;
     height: 157px;
-    width: 1920px;
+    width: 1519px;
 }
 
 .apresentacao .faixa1 > h1{
@@ -61,7 +67,7 @@
     background-color: rgba(255, 210, 0, 0.7);
     position: absolute;
     top: 400px;
-    right: 750px;
+    right: 500px;
     height: 157px;
     width: 482px;
 }
@@ -88,6 +94,13 @@
     padding-top: 50px;
 }
 
+.programacao > span{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
 .programacao h3{
     font-size: 22px;
 }
@@ -98,19 +111,105 @@
 }
 
 .palestrantes > div{
-    font-family: "Quicksand", sans-serif;
     position: relative;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
-.palestrantes > div > p{
+.palestrantes .mari > p{
+    font-family: "Quicksand", sans-serif;
     position: absolute ;
-    right: 1420px;
-    top: 15px;
+    right: 990px;
+    top: 65px;
 }
 
-.palestrantes > div > h3{
+.palestrantes .mario > p{
+    font-family: "Quicksand", sans-serif;
     position: absolute ;
-    right: 1470px;
-    top: 70px;
+    right: 1062px;
+    top: 65px;
+}
+
+.palestrantes .mari > h3{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    position: absolute ;
+    right: 1104px;
+    top: 115px;
+}
+
+.palestrantes .mario > h4{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    position: absolute ;
+    right: 1104px;
+    top: 115px;
+}
+
+.palestrantes .jose .data{
+    padding-top: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.palestrantes .jose > p{
+    font-family: "Quicksand", sans-serif;
+    position: absolute ;
+    right: 851px;
+    padding-top: 40px;
+}
+
+.palestrantes .jose > h5{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    position: absolute ;
+    right: 1135px;
+    top: 170px;
+}
+
+.palestrantes .jose > img{
+    position: absolute;
+    top: 130px; 
+    right: 1255px;
+}
+
+.local{
+    padding-top: 250px;
+}
+
+.local > img{
+    width: 1519px;
+}
+
+.local > h6{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+footer{
+    position: relative;
+    background-color: rgba(45, 55, 72, 0.8);
+    height: 200px;
+}
+
+footer > p{
+    color: #FFFFFF;
+    padding-left: 200px;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+
+footer .ifro{
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+footer .fslab{
+    position: absolute;
+    right: 1090px;
+    top: 90px;
 }
