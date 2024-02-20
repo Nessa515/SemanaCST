@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-link:link{
+    text-decoration: none;
+}
+
+.botao-link:link{
+    text-decoration: none;
+}
+
+.menu{
+    background-color: #ffffff69;
+    padding: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+}
+
+.menu > ul{
+    list-style: none;
+    
+}
+
+.menu > ul > li{
+    display: inline;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.apresentacao{
+    position: relative;
+}
+
+.apresentacao > img{
+    width: 1920px;
+}
+
+.apresentacao .faixa1{
+    background-color: rgba(255, 210, 0, 0.7);
+    position: absolute;
+    top: 180px;
+    height: 157px;
+    width: 1920px;
+}
+
+.apresentacao .faixa1 > h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.apresentacao .faixa2{
+    background-color: rgba(255, 210, 0, 0.7);
+    position: absolute;
+    top: 400px;
+    right: 750px;
+    height: 157px;
+    width: 482px;
+}
+
+.apresentacao .faixa2 > h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.descricao > p{
+    padding-left: 200px;
+    padding-top: 20px;
+    width: 1020px;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.programacao{
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.programacao h3{
+    font-size: 22px;
+}
+
+.programacao p{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.palestrantes > div{
+    font-family: "Quicksand", sans-serif;
+    position: relative;
+    padding-top: 30px;
+}
+
+.palestrantes > div > p{
+    position: absolute ;
+    right: 1420px;
+    top: 15px;
+}
+
+.palestrantes > div > h3{
+    position: absolute ;
+    right: 1470px;
+    top: 70px;
+}
