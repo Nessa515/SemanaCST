@@ -44,7 +44,7 @@
 }
 
 .apresentacao > img{
-    width: 1519px;
+    width: 100%;
 }
 
 .apresentacao .faixa1{
@@ -52,7 +52,7 @@
     position: absolute;
     top: 180px;
     height: 157px;
-    width: 1519px;
+    width: 100%;
 }
 
 .apresentacao .faixa1 > h1{
@@ -66,8 +66,8 @@
 .apresentacao .faixa2{
     background-color: rgba(255, 210, 0, 0.7);
     position: absolute;
-    top: 400px;
-    right: 500px;
+    top: 370px;
+    right: 700px;
     height: 157px;
     width: 482px;
 }
@@ -118,14 +118,14 @@
 .palestrantes .mari > p{
     font-family: "Quicksand", sans-serif;
     position: absolute ;
-    right: 990px;
+    right: 1400px;
     top: 65px;
 }
 
 .palestrantes .mario > p{
     font-family: "Quicksand", sans-serif;
     position: absolute ;
-    right: 1062px;
+    right: 1470px;
     top: 65px;
 }
 
@@ -133,7 +133,7 @@
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     position: absolute ;
-    right: 1104px;
+    right: 1515px;
     top: 115px;
 }
 
@@ -141,7 +141,7 @@
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     position: absolute ;
-    right: 1104px;
+    right: 1513px;
     top: 115px;
 }
 
@@ -155,7 +155,7 @@
 .palestrantes .jose > p{
     font-family: "Quicksand", sans-serif;
     position: absolute ;
-    right: 851px;
+    right: 1255px;
     padding-top: 40px;
 }
 
@@ -163,14 +163,14 @@
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
     position: absolute ;
-    right: 1135px;
+    right: 1540px;
     top: 170px;
 }
 
 .palestrantes .jose > img{
     position: absolute;
     top: 130px; 
-    right: 1255px;
+    right: 1640px;
 }
 
 .local{
@@ -178,7 +178,7 @@
 }
 
 .local > img{
-    width: 1519px;
+    width: 100%;
 }
 
 .local > h6{
@@ -210,6 +210,6 @@ footer .ifro{
 
 footer .fslab{
     position: absolute;
-    right: 1090px;
+    right: 1460px;
     top: 90px;
 }
