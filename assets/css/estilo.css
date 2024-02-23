@@ -67,8 +67,8 @@
     background-color: rgba(255, 210, 0, 0.7);
     position: absolute;
     top: 370px;
-    right: 700px;
-    height: 157px;
+    right: 710px;
+    height: 138px;
     width: 482px;
 }
 
@@ -175,6 +175,7 @@
 
 .local{
     padding-top: 250px;
+    margin: -4px;
 }
 
 .local > img{
@@ -193,6 +194,7 @@ footer{
     position: relative;
     background-color: rgba(45, 55, 72, 0.8);
     height: 200px;
+    margin: 0px;
 }
 
 footer > p{
