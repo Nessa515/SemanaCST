@@ -1,6 +1,5 @@
 :root{
     --cor-secundaria: rgba(255, 210, 0, 0.7);
-    --font-primaria: "Roboto", sans-serif;
     --font-secundaria: "Quicksand", sans-serif;
 }
 
@@ -8,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 .menu-link:link{
@@ -31,7 +31,6 @@
     background-color: #ffffff69;
     padding: 15px;
     text-align: center;
-    font-family: var(--font-primaria);
     font-weight: 400;
     font-size: 16px;
 }
@@ -64,7 +63,6 @@
 }
 
 .apresentacao .faixa1 > h1{
-    font-family: var(--font-primaria);
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -81,7 +79,6 @@
 }
 
 .apresentacao .faixa2 > h2{
-    font-family: var(--font-primaria);
     font-size: 36px;
     font-weight: 400;
     text-align: center;
@@ -104,7 +101,6 @@
 
 .programacao > span{
     position: absolute;
-    font-family: var(--font-primaria);
     padding-top: 20px;
     font-weight: 400;
 }
@@ -157,7 +153,6 @@
     padding-top: 60px;
     font-size: 16px;
     font-weight: 400;
-    font-family: var(--font-primaria);
 }
 
 .palestrantes .jose > p{
@@ -191,7 +186,6 @@
 }
 
 .local > h6{
-    font-family: var(--font-primaria);
     font-size: 22px;
     font-weight: 400;
     padding-left: 200px;
@@ -210,7 +204,6 @@ footer > p{
     padding-left: 200px;
     padding-top: 20px;
     font-size: 22px;
-    font-family: var(--font-primaria);
 }
 
 footer .ifro{
