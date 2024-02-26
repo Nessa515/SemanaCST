@@ -1,3 +1,9 @@
+:root{
+    --cor-secundaria: rgba(255, 210, 0, 0.7);
+    --font-primaria: "Roboto", sans-serif;
+    --font-secundaria: "Quicksand", sans-serif;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -25,7 +31,7 @@
     background-color: #ffffff69;
     padding: 15px;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
     font-weight: 400;
     font-size: 16px;
 }
@@ -50,7 +56,7 @@
 }
 
 .apresentacao .faixa1{
-    background-color: rgba(255, 210, 0, 0.7);
+    background-color: var(--cor-secundaria);
     position: absolute;
     top: 180px;
     height: 157px;
@@ -58,7 +64,7 @@
 }
 
 .apresentacao .faixa1 > h1{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -66,7 +72,7 @@
 }
 
 .apresentacao .faixa2{
-    background-color: rgba(255, 210, 0, 0.7);
+    background-color: var(--cor-secundaria);
     position: absolute;
     top: 370px;
     right: 710px;
@@ -75,7 +81,7 @@
 }
 
 .apresentacao .faixa2 > h2{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
     font-size: 36px;
     font-weight: 400;
     text-align: center;
@@ -88,7 +94,7 @@
     width: 1020px;
     line-height: 30px;
     font-size: 16px;
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .programacao{
@@ -98,7 +104,7 @@
 
 .programacao > span{
     position: absolute;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
     padding-top: 20px;
     font-weight: 400;
 }
@@ -118,21 +124,21 @@
 }
 
 .palestrantes .mari > p{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
     position: absolute ;
     right: 1400px;
     top: 65px;
 }
 
 .palestrantes .mario > p{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
     position: absolute ;
     right: 1470px;
     top: 65px;
 }
 
 .palestrantes .mari > h3{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 16px;
     position: absolute ;
     right: 1515px;
@@ -140,7 +146,7 @@
 }
 
 .palestrantes .mario > h4{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 16px;
     position: absolute ;
     right: 1513px;
@@ -151,18 +157,18 @@
     padding-top: 60px;
     font-size: 16px;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .palestrantes .jose > p{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
     position: absolute ;
     right: 1255px;
     padding-top: 40px;
 }
 
 .palestrantes .jose > h5{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 16px;
     position: absolute ;
     right: 1540px;
@@ -185,7 +191,7 @@
 }
 
 .local > h6{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
     font-size: 22px;
     font-weight: 400;
     padding-left: 200px;
@@ -204,7 +210,7 @@ footer > p{
     padding-left: 200px;
     padding-top: 20px;
     font-size: 22px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 footer .ifro{
